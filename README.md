@@ -32,31 +32,5 @@ A portfolio of **small, end-to-end data analytics projects** covering the full w
 - **Tools:** Python (EDA + basic forecasting) + Power BI  
 📌 Folder: [`03_wind_energy`](./03_wind_energy)
 
-> Want to add more projects? Copy the template in `99_templates/` and rename it.
-
 ---
 
-## Repository Structure
-
-```text
-data-analytics-portfolio/
-  README.md
-  01_urban_mobility/
-    README.md
-    notebooks/
-    sql/
-    powerbi/
-    data/
-  02_hospital_admissions/
-    README.md
-    notebooks/
-    sql/
-    powerbi/
-    data/
-  03_wind_energy/
-    README.md
-    notebooks/
-    sql/
-    powerbi/
-    data/
-  99_templates/
