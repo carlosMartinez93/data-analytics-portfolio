@@ -1,0 +1,149 @@
+{
+  "name": "Hospital Executive Blue \u2013 High Contrast",
+  "dataColors": [
+    "#4DA3FF",
+    "#2ECC71",
+    "#F1C40F",
+    "#E74C3C",
+    "#9B59B6",
+    "#1ABC9C",
+    "#3498DB",
+    "#E67E22"
+  ],
+  "background": "#071C33",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#4DA3FF",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 14
+          }
+        ],
+        "legend": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "titleColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontSize": 11
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "titleColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "gridlineColor": {
+              "solid": {
+                "color": "#163A5F"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "titleColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "gridlineColor": {
+              "solid": {
+                "color": "#163A5F"
+              }
+            }
+          }
+        ],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0B2F55"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#1F5FA3"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "button": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#1F5FA3"
+              }
+            }
+          }
+        ],
+        "text": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#4DA3FF"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
