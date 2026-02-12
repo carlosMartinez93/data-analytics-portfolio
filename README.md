@@ -1,36 +1,62 @@
-# data-analytics-portfolio
-Data Analytics Portfolio — SQL • Python/R (EDA) • Power BI dashboards. End-to-end mini projects with storytelling, data modeling, and actionable insights
-
-
 # Data Analytics Portfolio (SQL • Python/R • Power BI)
 
-Portfólio com projetos pequenos e completos de **Análise de Dados**, cobrindo o fluxo ponta a ponta:
-**EDA em Python/R**, **consultas e modelagem em SQL**, e **dashboards no Power BI** com storytelling e insights acionáveis.
+A portfolio of **small, end-to-end data analytics projects** covering the full workflow:
+**EDA in Python/R**, **SQL querying and data modeling**, and **Power BI dashboards** with clear storytelling and actionable insights.
 
-## Stack
-- **Python** (Pandas, NumPy, Matplotlib/Plotly) e/ou **R** (tidyverse)
-- **SQL** (CTEs, Window Functions, views, modelagem)
+## Tech Stack
+- **Python** (Pandas, NumPy, Matplotlib/Plotly) and/or **R** (tidyverse)
+- **SQL** (CTEs, window functions, views, modeling)
 - **Power BI** (Power Query, DAX, Star Schema, dashboards)
-- Git/GitHub (versionamento e documentação)
+- Git/GitHub (version control and documentation)
 
 ---
 
-## Projetos
+## Projects
 
-> Clique para abrir cada projeto. Cada pasta contém README próprio, notebook(s), SQL e assets do Power BI (ou prints).
+> Click a project to open it. Each folder includes its own README, notebook(s), SQL scripts, and Power BI assets (or screenshots).
 
-### 01) Projeto — Mobilidade Urbana
-- **Objetivo:** entender padrões de deslocamento/atraso e identificar rotas/horários críticos  
-- **Tecnologias:** SQL + Python (EDA) + Power BI  
-- **Entrega:** dashboard com indicadores e principais insights  
-📌 Pasta: [`01_mobilidade_urbana`](./01_mobilidade_urbana)
+### 01) Project — Urban Mobility
+- **Goal:** understand delays/traffic patterns and identify critical routes and peak hours  
+- **Tools:** SQL + Python (EDA) + Power BI  
+- **Deliverable:** dashboard with KPIs and key insights  
+📌 Folder: [`01_urban_mobility`](./01_urban_mobility)
 
-### 02) Projeto — Hospital / Internações
-- **Objetivo:** analisar internações, tempo de permanência e ocupação por perfil  
-- **Tecnologias:** SQL + Power BI + (opcional) Python/R  
-- **Entrega:** modelo estrela + painel executivo  
-📌 Pasta: [`02_hospital_internacoes`](./02_hospital_internacoes)
+### 02) Project — Hospital Admissions
+- **Goal:** analyze admissions, length of stay, and occupancy by patient profile  
+- **Tools:** SQL + Power BI + (optional) Python/R  
+- **Deliverable:** star schema + executive dashboard  
+📌 Folder: [`02_hospital_admissions`](./02_hospital_admissions)
 
-### 03) Projeto — Geração de Energia Eólica (Histórico e Projeção)
-- **Objetivo:** ex
+### 03) Project — Wind Energy Generation (Historical Analysis + Projection)
+- **Goal:** explore seasonality/trends and build simple projections  
+- **Tools:** Python (EDA + basic forecasting) + Power BI  
+📌 Folder: [`03_wind_energy`](./03_wind_energy)
 
+> Want to add more projects? Copy the template in `99_templates/` and rename it.
+
+---
+
+## Repository Structure
+
+```text
+data-analytics-portfolio/
+  README.md
+  01_urban_mobility/
+    README.md
+    notebooks/
+    sql/
+    powerbi/
+    data/
+  02_hospital_admissions/
+    README.md
+    notebooks/
+    sql/
+    powerbi/
+    data/
+  03_wind_energy/
+    README.md
+    notebooks/
+    sql/
+    powerbi/
+    data/
+  99_templates/
